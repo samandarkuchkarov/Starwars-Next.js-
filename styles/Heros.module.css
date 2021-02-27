@@ -1,0 +1,55 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    color: orange;
+    font-size: 28px;
+    height: 37px;
+}
+
+.link {
+    overflow-x: scroll;
+    width: 1000px;
+}
+
+.scroll {
+    display: flex;
+    width: 2300px;
+    height: 130px;
+
+
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-left: 13px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.name {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+@media (max-width:1280px) {
+
+    .container,
+    .link {
+        width: 768px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .container,
+    .link {
+        width: 320px
+    }
+}

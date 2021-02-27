@@ -1,0 +1,42 @@
+.nav div span {
+    color: #81D4FA;
+    letter-spacing: 2px;
+}
+
+.page {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    height: 20em;
+    margin: 30px 0;
+    background-color: #fff;
+}
+
+.image {
+    background-position: center 20%;
+    background-size: cover;
+    height: 100%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+}
+
+.text {
+    padding-top: 10px;
+}
+
+.text h3 {
+    color: #000;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.text h4 {
+    color: rgb(58, 53, 53);
+    font-weight: 500;
+    line-height: 5px;
+
+}
